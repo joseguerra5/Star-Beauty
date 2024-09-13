@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--yellow-500);
+
+  height: 8rem;
+}
+
+.headerContainer {
+  max-width: 76rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anchorNav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.logo{
+  padding: 1rem;
+ width: 12rem;
+
+ &:hover{
+  fill: var(--yellow-700);
+ }
+}
+
+.anchor{
+  color: var(--white);
+  transition: color .1s, border-bottom .1s ease;
+  &:hover {
+    border-bottom: 1px solid var(--yellow-700);
+    color: var(--yellow-700);
+  }
+}
+
+.button{
+  border: transparent;
+  padding: .5rem 1rem;
+  border-radius: 8px;
+  transition: background-color .1s, color .1s;
+  color: var(--yellow-500);
+  
+  &:hover {
+    background-color: var(--yellow-700);
+    color: var(--white);
+  }
+}

@@ -1,0 +1,36 @@
+.section {  
+  margin-top: 3rem;
+
+  background-color: var(--yellow-500);
+}
+
+.sectionContainer{
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text{
+  width: 40rem;
+}
+
+.span {
+  text-transform: uppercase;
+
+}
+.paragraph {
+  color: var(--gray-600);
+}
+
+.heading{
+  color: var(--white);
+  font: 800 3rem/1.2 var(--ff);
+}
+
+
+
+
+.image {
+  width: 40rem;
+
+}

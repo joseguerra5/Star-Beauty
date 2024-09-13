@@ -1,0 +1,22 @@
+import profilePic from "../assets/profile.png"
+import styles from "./Hero.module.css";
+
+export function Hero() {
+  return(
+    <section className={`${styles.profileContainer}`}>
+      <div className={`container even-columns`}>
+      <div className={styles.profile}>
+        <img src={profilePic} alt="" className={styles.profilePic}/>
+      </div>
+      <div className={styles.titleHero}>
+        <h1 className={styles.h1Hero}>Estar sempre linda, com a Star Beauty</h1>
+        <p className={styles.paragraphHero}>Agende sua transformação na Star Beauty e brilhe com confiança. ✨</p>
+        <div className={styles.buttonContainer}>
+          <button className={styles.pricing}>Ver preços</button>
+          <button className={styles.schedule}>Agende agora</button>
+        </div>
+      </div>
+      </div>
+    </section>
+  )
+}

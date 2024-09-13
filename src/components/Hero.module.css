@@ -1,0 +1,70 @@
+.profileContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.profile {
+  background-color: var(--yellow-500);
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profilePic {
+  object-fit: cover;
+  width: 90%;
+}
+
+.titleHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.h1Hero {
+  color: var(--yellow-500);
+  font: 700 4rem/1.2 var(--ff);
+  text-align: center;
+  width: 40rem;
+
+}
+
+.paragraphHero {
+  color: var(--gray-500);
+  font: 400 1rem/1.4 var(--ff);
+  white-space: pre-line;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 2rem;
+
+  & button {
+    border: transparent;
+    padding: .7rem 1rem;
+    border-radius: 8px;
+  }
+}
+
+.pricing {
+  color: var(--yellow-500);
+  transition: background-color .1s, color .1s;
+  &:hover{
+    background-color: var(--yellow-500);
+    color: var(--white);
+  }
+}
+
+.schedule {
+  background-color: var(--yellow-500);
+  color: var(--white);
+  transition: background-color .1s, color .1s;
+  &:hover{
+    background-color: var(--yellow-700);
+    color: var(--white);
+  }
+}
