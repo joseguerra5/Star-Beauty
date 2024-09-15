@@ -4,7 +4,7 @@ import styles from "./Hero.module.css";
 export function Hero() {
   return(
     <section className={`${styles.profileContainer}`}>
-      <div className={`container even-columns`}>
+      <div className={`container even-columns ${styles.profileContent}`}>
       <div className={styles.profile}>
         <img src={profilePic} alt="" className={styles.profilePic}/>
       </div>

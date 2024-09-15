@@ -11,16 +11,17 @@
 :root {
   --white: #ffffff;
 
-  --yellow-500: #F2B705;
+  --yellow-500: #f2b705;
+  --yellow-200: #f2b705;
   --yellow-700: #D9910D;
 
-  --gray-100: #e1e1e6;
-  --gray-300: #c4c4cc;
-  --gray-400: #8d8d99;
-  --gray-600: #323238;
-  --gray-700: #29292e;
-  --gray-800: #202024;
-  --gray-900: #121214;
+  --gray-100: #e6e6e1;
+  --gray-300: #ccccc4;
+  --gray-400: #98998d;
+  --gray-600: #383832;
+  --gray-700: #2d2e29;
+  --gray-800: #242420;
+  --gray-900: #141412;
 
   --red-danger: #BF0404;
   --blue-500: #027368;
@@ -28,7 +29,7 @@
 
   --px-lg: 1.5rem;
 
-  --ff: "Open Sans", sans-serif;
+  --ff: "Merriweather", sans-serif;
 }
 
 a{
@@ -37,7 +38,7 @@ a{
 }
 
 body {
-  background-color: var(--gray-100);
+  background-color: var(--white);
 }
 
 img {
@@ -75,6 +76,8 @@ button {
 .desktop-only {
   display: initial;
 }
+
+
 
 @media (width >= 80em) {
 

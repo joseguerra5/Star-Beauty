@@ -7,6 +7,8 @@ import {Hero} from './components/Hero.jsx'
 import {AboutUs} from './components/AboutUs.jsx'
 import {Service} from './components/Service.jsx'
 import {Pricing} from './components/Pricing.jsx'
+import {Table} from './components/Table.jsx'
+import {Footer} from './components/Footer.jsx'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
         <AboutUs />
         <Service/>
         <Pricing/>
+        <Table/>
+        <Footer/>
       </div>
       
     </div>
