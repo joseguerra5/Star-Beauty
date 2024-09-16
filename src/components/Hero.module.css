@@ -7,6 +7,7 @@
 
 .profileContent{
   align-items: center;
+  justify-items: center;
 }
 
 .profile {
@@ -15,6 +16,7 @@
   height: 20rem;
   border-radius: 50%;
   overflow: hidden;
+  align-items: center;
 }
 
 .profilePic {
