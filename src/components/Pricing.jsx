@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Autoplay, Pagination, Navigation } from 'swiper/modules';
 import styles from "./Pricing.module.css";
 
+
 export function Pricing() {
   return (
 
@@ -17,11 +18,10 @@ export function Pricing() {
       <div className={styles.containerColor}>
         <header className={styles.header}>
           <span className={styles.headerSpan}>Planos e preços</span>
-          <h2 className={styles.headerHeading}>Escolha o seu Pack e Valorize sua Beleza</h2>
+          <h2 className={styles.headerHeading}>Serviços em destaque</h2>
         </header>
         <Swiper
           className={`container mySwiper ${styles.cardSwiper}`}
-          slidesPerView={3}
           effect={'coverflow'}
           coverflowEffect={{
             rotate: 0,
@@ -30,11 +30,6 @@ export function Pricing() {
             modifier: 1,
             slideShadows: false
           }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-            waitForTransition: true,
-          }}
           watchSlidesProgress={true}
           pagination={true}
           centeredSlides={true}
@@ -42,6 +37,14 @@ export function Pricing() {
           modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
           Pagination={{
             clickable: true,
+          }}
+          breakpoints={{
+            768: {
+              slidesPerView: 1,
+            },
+            1280: {
+              slidesPerView: 3,
+            }
           }}
         >
           <SwiperSlide className={styles.cardSwiperSlide}>

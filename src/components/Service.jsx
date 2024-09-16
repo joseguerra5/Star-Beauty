@@ -7,8 +7,7 @@ import styles from "./Service.module.css";
 export function Service() {
   return (
     <section className={`${styles.serviceContainer}`}>
-      <div className={`container even-columns ${styles.container}`}>
-
+      <div className={`container ${styles.container}`}>
         <div className={styles.card1}>
           <div>
             <img src={epilation} alt="" />

@@ -6,9 +6,10 @@ export function Hero() {
     <section className={`${styles.profileContainer}`}>
       <div className={`container even-columns ${styles.profileContent}`}>
       <div className={styles.profile}>
+
         <img src={profilePic} alt="" className={styles.profilePic}/>
       </div>
-      <div className={styles.titleHero}>
+      <div className={`even-columns ${styles.titleHero}`}>
         <h1 className={styles.h1Hero}>Estar sempre linda, com a Star Beauty</h1>
         <p className={styles.paragraphHero}>Agende sua transformação na Star Beauty e brilhe com confiança. ✨</p>
         <div className={styles.buttonContainer}>

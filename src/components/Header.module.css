@@ -24,7 +24,7 @@
 }
 .logo{
   padding: 1rem;
- width: 12rem;
+  width: 12rem;
 
  &:hover{
   fill: var(--yellow-700);
@@ -50,5 +50,11 @@
   &:hover {
     background-color: var(--yellow-700);
     color: var(--white);
+  }
+}
+
+@media (width < 80em) {
+  .logo {
+    width: 10rem;
   }
 }

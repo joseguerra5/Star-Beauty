@@ -7,9 +7,9 @@ export function Header() {
       <div className={styles.headerContainer}>
         <a href="#"><img src={starLogo} alt="" className={styles.logo} /></a>
         <nav className={styles.anchorNav}>
-          <a href="" className={styles.anchor}>Sobre nós</a>
-          <a href="" className={styles.anchor}>Vantagens</a>
-          <a href="" className={styles.anchor}>Planos e preços</a>
+          <a href="" className={`${styles.anchor} desktop-only`}>Sobre nós</a>
+          <a href="" className={`${styles.anchor} desktop-only`}>Vantagens</a>
+          <a href="" className={`${styles.anchor} desktop-only`}>Planos e preços</a>
           <button className={styles.button}>Agende agora</button>
         </nav>
       </div>

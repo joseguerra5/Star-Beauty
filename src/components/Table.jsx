@@ -58,8 +58,8 @@ export function Table() {
         <thead className={styles.tHead}>
           <tr>
             <th>Sobrancelhas</th>
-            <th>Valor</th>
-            <th>Tempo (minutos)</th>
+            <th></th>
+            <th></th>
           </tr>
         </thead>
         <tbody className={styles.tBody}>
@@ -105,8 +105,8 @@ export function Table() {
         <thead className={styles.tHead}>
           <tr>
             <th>Lábios</th>
-            <th>Valor</th>
-            <th>Tempo (minutos)</th>
+            <th></th>
+            <th></th>
           </tr>
         </thead>
         <tbody className={styles.tBody}>
@@ -132,8 +132,8 @@ export function Table() {
         <thead className={styles.tHead}>
           <tr>
             <th>Pestanas</th>
-            <th>Valor</th>
-            <th>Tempo (minutos)</th>
+            <th></th>
+            <th></th>
           </tr>
         </thead>
         <tbody className={styles.tBody}>

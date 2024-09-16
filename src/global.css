@@ -38,7 +38,10 @@ a{
 }
 
 body {
+  font-size: 80%;
   background-color: var(--white);
+  overflow-x: hidden;
+  font: inherit;
 }
 
 img {
@@ -61,7 +64,7 @@ button {
 }
 
 .container {
-  --max-width: 80em;
+  --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
 }
@@ -74,15 +77,22 @@ button {
 }
 
 .desktop-only {
-  display: initial;
+  display: none;
 }
 
 
 
 @media (width >= 80em) {
+  .body {
+    font-size: 100%;
+  }
+
+  .container {
+    --max-width: 80em;
+  }
 
   .desktop-only {
-    display: none;
+    display: initial;
   }
 
   .even-columns{

@@ -1,32 +1,30 @@
 .section {  
   margin-top: 3rem;
-
   background-color: var(--gray-100);
   overflow: hidden;
 }
 
 .sectionContainer{
-  padding: 1rem;
+  padding: 2rem 1rem;
   align-items: center;
   justify-content: space-between;
 }
 
-.text{
-  width: 40rem;
-}
 
 .span {
   text-transform: uppercase;
   color: var(--yellow-700);
+  font-size: 1rem;
 }
 .paragraph {
   color: var(--gray-600);
   margin-top: 1rem;
+  font-size: .825rem;
 }
 
 .heading{
   color: var(--white);
-  font: 800 3rem/1.2 var(--ff);
+  font: 800 2rem/1.2 var(--ff);
   margin-top: 1rem;
 }
 
@@ -38,7 +36,23 @@
   height: 35rem;
   float: right;
   justify-self: flex-end;
-  margin-bottom: -2rem;
+  margin-bottom: -6rem;
+  object-fit: contain;
+}
 
+@media (width >= 80em) {
+  .span {
+    font-size: 1.5rem;
+  }
+  .heading{
+    font: 800 3rem/1.2 var(--ff);
+  }
 
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  .imageService {
+    margin-bottom: -2rem;
+  }
 }

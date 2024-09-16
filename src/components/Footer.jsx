@@ -1,19 +1,20 @@
 import styles from "./Footer.module.css";
 
-import lip from "../assets/lip.svg";
-import epilacao from "../assets/epilacao.svg";
-import pestanas from "../assets/pestanas.svg";
-import sobrancelhas from "../assets/sobrancelha.svg";
+import Logo from "../assets/Logo.svg";
+import tikTok from "../assets/tiktok.svg";
+import instagram from "../assets/instagram.svg";
+// import whatsapp from "../assets/whatsapp.svg";
+// import trustPilot from "../assets/trustPilot.svg";
 
 export function Footer() {
   return (
-    <footer>
-      <div class="container py-xl grid">
-        <section class="grid top">
-          <span class="logo-footer">Afiado</span>
-          <nav class="even-columns">
-            <ul role="list" class="grid gap-1.5">
-              <li class="title">Serviço</li>
+    <footer className={styles.footer}>
+      <div className={`${styles.footerContainer} container`}>
+        <section className={`even-columns ${styles.section}`}>
+          <a href="#"><img src={Logo} alt="Star Beauty Logo" className={styles.logoFooter} /></a>
+          <nav className={`${styles.nav} even-columns`}>
+            <ul role="list" className={styles.ul}>
+              <li className={styles.titleLi}>Serviço</li>
               <li>
                 <a href="#features">Vantagens</a>
               </li>
@@ -25,40 +26,39 @@ export function Footer() {
               </li>
             </ul>
 
-            <ul role="list" class="grid gap-1.5">
-              <li class="title">Empresa</li>
+            <ul role="list" className={styles.ul}>
+              <li className={styles.titleLi}>Empresa</li>
               <li>
                 <a href="#about">Sobre nós</a>
               </li>
               <li>
-                <a href="#about">Blog</a>
+                <a href="#blog">Blog</a>
               </li>
             </ul>
 
-            <ul role="list" class="grid gap-1.5">
-              <li class="title">Legal</li>
+            <ul role="list" className={styles.ul}>
+              <li className={styles.titleLi}>Legal</li>
               <li>
                 <a href="#">Termos de uso</a>
               </li>
               <li>
-                <a href="#">Pólitica de privacidade</a>
+                <a href="#">Política de privacidade</a>
               </li>
             </ul>
           </nav>
         </section>
-        <section class="bottom flex gap-1.5">
-          <div class="flex gap-1 5">
-            <a href="" class="social" aria-label="tiktok"></a>
-            <a href="instagram.com/afiadoeu" class="social" aria-label="instagram"></a>
-            <a href="" class="social" aria-label="twitter"></a>
-            <a href="" class="social" aria-label="discord"></a>
+        
+        <section className={`even-columns ${styles.socialContainer}`}>
+          <div className={styles.socialIcons}>
+            <a href="#" className={styles.social} aria-label="TikTok"><img src={tikTok} alt="TikTok" /></a>
+            <a href="https://instagram.com/afiadoeu" className={styles.social} aria-label="Instagram"><img src={instagram} alt="Instagram" /></a>
+            {/* Adicione links e ícones reais para Twitter e Discord, se necessário */}
+            <a href="#" className={styles.social} aria-label="Twitter"></a>
+            <a href="#" className={styles.social} aria-label="Discord"></a>
           </div>
-          <span class="copy">©2024 Afiado, Inc.</span>
+          <span>©2024 Star Beauty.</span>
         </section>
       </div>
     </footer>
-  )
+  );
 }
-
-
-
