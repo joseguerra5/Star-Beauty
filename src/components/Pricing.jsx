@@ -52,7 +52,7 @@ export function Pricing() {
               <div className={styles.cardContainer}>
                 <h3 className={styles.heading}>Pack Sobrancelha e buço</h3>
                 <p className={styles.paragraph}>
-                  Ideal para quem está exausto de lidar pelos no rosto</p>
+                Ideal para quem está exausto de ter pelos no rosto.</p>
                 <span className={styles.pricing}>€ 16 <small>,50</small></span>
                 <button className={styles.button}>Agende agora</button>
                 <div className={styles.separator}></div>
@@ -62,7 +62,7 @@ export function Pricing() {
                   <li className={styles.item}><img src={iconCheck}>
                   </img>Pode ser menos doloroso do que a cera ou pinça, tornando o processo mais confortável.</li>
                   <li className={styles.item}><img src={iconCheck}>
-                  </img>Proporciona uma reução mais prolongada dos pelos.</li>
+                  </img>Método de Epilação com linha de algodão, não causa alergias a pele.</li>
                 </ul>
               </div>
             </div>
@@ -92,7 +92,7 @@ export function Pricing() {
           <SwiperSlide className={styles.cardSwiperSlide}>
             <div className={styles.cardBorder}>
               <div className={styles.cardContainer}>
-                <h3 className={styles.heading}>Lifting com Tintura</h3>
+                <h3 className={styles.heading}>Lifting de Pestanas com Tintura </h3>
                 <p className={styles.paragraph}>
                   Ideal para quem está exausto de passar rimel todos os dias</p>
                 <span className={styles.pricing}>€ 35 <small>,50</small></span>
@@ -100,11 +100,11 @@ export function Pricing() {
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
                   <li className={styles.item}><img src={iconCheck}>
-                  </img>efeito de alongamento.</li>
+                  </img>Proporciona efeito de alongamento de pestanas</li>
                   <li className={styles.item}><img src={iconCheck}>
-                  </img>Proporciona volume e comprimento imediato</li>
+                  </img>Curvatura natural e duradoura</li>
                   <li className={styles.item}><img src={iconCheck}>
-                  </img>olhar mais marcante.</li>
+                  </img>olhar mais marcante</li>
                 </ul>
               </div>
             </div>
@@ -115,7 +115,7 @@ export function Pricing() {
               <div className={styles.cardContainer}>
                 <h3 className={styles.heading}>Extensão de pestanas</h3>
                 <p className={styles.paragraph}>
-                  Ideal para quem está exausto de lidar pelos no rosto</p>
+                Ideal para quem deseja alongar as pestanas com um efeito mais marcante e preenchido</p>
                 <span className={styles.pricing}>€ 35 <small>,50</small></span>
                 <button className={styles.button}>Agende agora</button>
                 <div className={styles.separator}></div>
@@ -136,7 +136,7 @@ export function Pricing() {
               <div className={styles.cardContainer}>
                 <h3 className={styles.heading}>Pack Tintura com Epilação de Sobrancelhas</h3>
                 <p className={styles.paragraph}>
-                  Ideal para quem está exausto de lidar pelos no rosto</p>
+                Ideal para quem deseja realçar as sobrancelhas com naturalidade</p>
                 <span className={styles.pricing}>€ 23 <small>,50</small></span>
                 <button className={styles.button}>Agende agora</button>
                 <div className={styles.separator}></div>
@@ -144,7 +144,7 @@ export function Pricing() {
                   <li className={styles.item}><img src={iconCheck}>
                   </img>Garante uma coloração uniforme e natural</li>
                   <li className={styles.item}><img src={iconCheck}>
-                  </img>A tintura dura cerca de 4 semanas  </li>
+                  </img>Cobertura dos pelos brancos</li>
                   <li className={styles.item}><img src={iconCheck}>
                   </img>Define melhor as sobrancelhas</li>
                 </ul>

@@ -32,11 +32,10 @@
 
 
 .imageService {
-  width: 25rem;
-  height: 35rem;
+
   float: right;
   justify-self: flex-end;
-  margin-bottom: -6rem;
+  margin-bottom: -2rem;
   object-fit: contain;
 }
 

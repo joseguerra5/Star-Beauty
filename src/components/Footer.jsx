@@ -22,7 +22,7 @@ export function Footer() {
                 <a href="#pricing">Preços</a>
               </li>
               <li>
-                <a href="#download">Afiar</a>
+                <a href="#download">Agendar</a>
               </li>
             </ul>
 
