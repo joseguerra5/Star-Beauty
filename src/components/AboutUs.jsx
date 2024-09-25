@@ -1,9 +1,9 @@
-import mockup from "../assets/hand.png"
+import mockup from "../assets/hero-mockup.png"
 import styles from "./AboutUs.module.css";
 
 export function AboutUs() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="aboutUs">
       <div className={`container even-columns ${styles.sectionContainer}`}>
         <div className={styles.text}>
           <span className={styles.span}>Nosso serviço</span>

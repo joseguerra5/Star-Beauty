@@ -48,18 +48,16 @@
   display: flex;
   gap: 2rem;
 
-  & button {
-    border: transparent;
-    padding: .7rem 1rem;
-    border-radius: 8px;
-  }
 }
 
 .pricing {
-  color: var(--yellow-500);
   transition: background-color .1s, color .1s;
+  color: var(--yellow-700);
+  border: 1px solid var(--yellow-700);
+  padding: .7rem 1rem;
+  border-radius: 8px;
   &:hover{
-    background-color: var(--yellow-500);
+    background-color: var(--yellow-700);
     color: var(--white);
   }
 }
@@ -67,7 +65,10 @@
 .schedule {
   background-color: var(--yellow-500);
   color: var(--white);
+  border: transparent;
   transition: background-color .1s, color .1s;
+  padding: .7rem 1rem;
+  border-radius: 8px;
   &:hover{
     background-color: var(--yellow-700);
     color: var(--white);

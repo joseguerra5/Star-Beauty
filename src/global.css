@@ -37,11 +37,16 @@ a{
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 80%;
   background-color: var(--white);
   overflow-x: hidden;
   font: inherit;
+  
 }
 
 img {

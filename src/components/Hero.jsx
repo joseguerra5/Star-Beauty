@@ -13,8 +13,8 @@ export function Hero() {
         <h1 className={styles.h1Hero}>Estar sempre linda, com a Star Beauty</h1>
         <p className={styles.paragraphHero}>Agende sua transformação na Star Beauty e brilhe com confiança. ✨</p>
         <div className={styles.buttonContainer}>
-          <button className={styles.pricing}>Ver preços</button>
-          <button className={styles.schedule}>Agende agora</button>
+          <a href="#pricing" className={styles.pricing}>Ver preços</a>
+          <a href="http://wa.me/351916037561" className={styles.schedule}>Agende agora</a>
         </div>
       </div>
       </div>

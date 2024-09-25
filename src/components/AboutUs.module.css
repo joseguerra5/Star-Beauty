@@ -23,7 +23,7 @@
 }
 
 .heading{
-  color: var(--white);
+  color: var(--gray-900);
   font: 800 2rem/1.2 var(--ff);
   margin-top: 1rem;
 }

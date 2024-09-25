@@ -15,7 +15,7 @@ export function Pricing() {
   return (
 
     <>
-      <div className={styles.containerColor}>
+      <div className={styles.containerColor} id="pricing">
         <header className={styles.header}>
           <span className={styles.headerSpan}>Planos e preços</span>
           <h2 className={styles.headerHeading}>Serviços em destaque</h2>
@@ -53,7 +53,7 @@ export function Pricing() {
                 <h3 className={styles.heading}>Pack Sobrancelha e buço</h3>
                 <p className={styles.paragraph}>
                 Ideal para quem está exausto de ter pelos no rosto.</p>
-                <span className={styles.pricing}>€ 16 <small>,50</small></span>
+                <span className={styles.pricing}>€ 16 <small>,00</small></span>
                 <button className={styles.button}>Agende agora</button>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
@@ -74,7 +74,7 @@ export function Pricing() {
                 <h3 className={styles.heading}>Hidragloss Lips</h3>
                 <p className={styles.paragraph}>
                   Ideal para quem está exausto de ter os lábios secos</p>
-                <span className={styles.pricing}>€ 25 <small>,50</small></span>
+                <span className={styles.pricing}>€ 25 <small>,00</small></span>
                 <button className={styles.button}>Agende agora</button>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
@@ -95,7 +95,7 @@ export function Pricing() {
                 <h3 className={styles.heading}>Lifting de Pestanas com Tintura </h3>
                 <p className={styles.paragraph}>
                   Ideal para quem está exausto de passar rimel todos os dias</p>
-                <span className={styles.pricing}>€ 35 <small>,50</small></span>
+                <span className={styles.pricing}>€ 35 <small>,00</small></span>
                 <button className={styles.button}>Agende agora</button>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
@@ -116,7 +116,7 @@ export function Pricing() {
                 <h3 className={styles.heading}>Extensão de pestanas</h3>
                 <p className={styles.paragraph}>
                 Ideal para quem deseja alongar as pestanas com um efeito mais marcante e preenchido</p>
-                <span className={styles.pricing}>€ 35 <small>,50</small></span>
+                <span className={styles.pricing}>€ 35 <small>,00</small></span>
                 <button className={styles.button}>Agende agora</button>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
@@ -137,7 +137,7 @@ export function Pricing() {
                 <h3 className={styles.heading}>Pack Tintura com Epilação de Sobrancelhas</h3>
                 <p className={styles.paragraph}>
                 Ideal para quem deseja realçar as sobrancelhas com naturalidade</p>
-                <span className={styles.pricing}>€ 23 <small>,50</small></span>
+                <span className={styles.pricing}>€ 23 <small>,00</small></span>
                 <button className={styles.button}>Agende agora</button>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
