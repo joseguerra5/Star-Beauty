@@ -54,7 +54,9 @@ export function Pricing() {
                 <p className={styles.paragraph}>
                 Ideal para quem está exausto de ter pelos no rosto.</p>
                 <span className={styles.pricing}>€ 16 <small>,00</small></span>
-                <button className={styles.button}>Agende agora</button>
+                <a href="http://wa.me/351916037561" target="_blank">
+                  <button className={styles.button}>Agende agora</button>
+                </a>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
                   <li className={styles.item}><img src={iconCheck}>
@@ -75,7 +77,9 @@ export function Pricing() {
                 <p className={styles.paragraph}>
                   Ideal para quem está exausto de ter os lábios secos</p>
                 <span className={styles.pricing}>€ 25 <small>,00</small></span>
-                <button className={styles.button}>Agende agora</button>
+                <a href="http://wa.me/351916037561" target="_blank">
+                  <button className={styles.button}>Agende agora</button>
+                </a>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
                   <li className={styles.item}><img src={iconCheck}>
@@ -96,7 +100,9 @@ export function Pricing() {
                 <p className={styles.paragraph}>
                   Ideal para quem está exausto de passar rimel todos os dias</p>
                 <span className={styles.pricing}>€ 35 <small>,00</small></span>
-                <button className={styles.button}>Agende agora</button>
+                <a href="http://wa.me/351916037561" target="_blank">
+                  <button className={styles.button}>Agende agora</button>
+                </a>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
                   <li className={styles.item}><img src={iconCheck}>
@@ -117,7 +123,9 @@ export function Pricing() {
                 <p className={styles.paragraph}>
                 Ideal para quem deseja alongar as pestanas com um efeito mais marcante e preenchido</p>
                 <span className={styles.pricing}>€ 35 <small>,00</small></span>
-                <button className={styles.button}>Agende agora</button>
+                <a href="http://wa.me/351916037561" target="_blank">
+                  <button className={styles.button}>Agende agora</button>
+                </a>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
                   <li className={styles.item}><img src={iconCheck}>
@@ -138,7 +146,9 @@ export function Pricing() {
                 <p className={styles.paragraph}>
                 Ideal para quem deseja realçar as sobrancelhas com naturalidade</p>
                 <span className={styles.pricing}>€ 23 <small>,00</small></span>
-                <button className={styles.button}>Agende agora</button>
+                <a href="http://wa.me/351916037561" target="_blank">
+                  <button className={styles.button}>Agende agora</button>
+                </a>
                 <div className={styles.separator}></div>
                 <ul role="list" className={styles.ulContainer}>
                   <li className={styles.item}><img src={iconCheck}>

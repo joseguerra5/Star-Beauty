@@ -36,6 +36,8 @@ th:nth-child(1),
 td:nth-child(1) {
   width: 50%;
   padding-left: 1rem;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 
 th:nth-child(2),
@@ -48,6 +50,8 @@ th:nth-child(3),
 td:nth-child(3) {
   width: 25%;
   text-align: center;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 } 
 
 @media (width >= 80em) {

@@ -50,8 +50,8 @@ export function Footer() {
         
         <section className={`even-columns ${styles.socialContainer}`}>
           <div className={styles.socialIcons}>
-            <a href="#" className={styles.social} aria-label="TikTok"><img src={tikTok} alt="TikTok" /></a>
-            <a href="https://instagram.com/afiadoeu" className={styles.social} aria-label="Instagram"><img src={instagram} alt="Instagram" /></a>
+            <a href="https://www.tiktok.com/@starbeautyad?_t=8qG6G7u1vtr&_r=1" className={styles.social} aria-label="TikTok" target="_blank"><img src={tikTok} alt="TikTok" /></a>
+            <a href="https://instagram.com/starbeautyad" className={styles.social} aria-label="Instagram" target="_blank"><img src={instagram} alt="Instagram" /></a>
             {/* Adicione links e ícones reais para Twitter e Discord, se necessário */}
             <a href="#" className={styles.social} aria-label="Twitter"></a>
             <a href="#" className={styles.social} aria-label="Discord"></a>
